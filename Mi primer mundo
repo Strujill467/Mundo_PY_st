@@ -1,0 +1,21 @@
+'''Descripciòn: el robot se desplaza hacia la manzana, la recoje, deja una banana y se devuelve a home'''
+'''Autor: Sebastian Trujillo'''
+'''Fecha: 29/07/2019'''
+print(" - ¡HOLA!, yo soy Reeborg`s")
+print(" ")
+print(" -  Voy a cumplir mi tarea")
+print(" ")
+repeat 4:
+    move()
+#pause()    
+take()
+#pause()
+put("banana")
+#pause()
+repeat 2:
+    turn_left()
+#pause()    
+repeat 4:
+    move()
+print("Labor cumplida de manera exitosa")    
+print(" ")    
