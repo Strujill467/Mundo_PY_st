@@ -1,0 +1,29 @@
+'''
+Un mundo dinamico para el robot de 5x5
+Autor: Sebastian Trujillo
+29/07/2019
+'''
+'''
+Funcionalidad:
+Pre: Reeborg inicia en (1,1)
+pos: Reeborg termina en (5,5)
+'''
+def turn():
+    repeat 3:
+        turn_left()
+move()
+turn()
+move()
+turn_left()
+move()
+turn()
+move()
+turn_left()
+move()
+turn()
+move()
+turn_left()
+move()
+turn()
+move()
+turn_left()
